@@ -6,10 +6,10 @@
 int main()
 {
     int a,b,c;
-    float d,r1,r2;
+    float d,r1,r2,real,img;
     printf("Enter a , b , c : ");
     scanf("%d%d%d",&a,&b,&c);
-    d=pow(b*b-4*a*c,0.5);
+    d=sqrt(b*b-4*a*c);
     if(d==0)
     {
         printf("\nReal and Equal roots");
@@ -29,10 +29,7 @@ int main()
     else
     {
         printf("Imaginary roots");
-        r1=(-b+d)/2*a;
-        r2=(-b-d)/2*a;
-        printf("\n%f",r1);
-        printf("\n%f",r2);
+      
     }
     
 }
