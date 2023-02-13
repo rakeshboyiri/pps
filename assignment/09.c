@@ -20,6 +20,6 @@ int main()
     }
     if(num==sum)
     {
-        printf("%d is a prime number\n",num);
+        printf("%d is a perfect number\n",num);
     }
 }
