@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<math.h>
 int amstrong();
-int count();
+int digit_count();
 int main()
 {
     int n,i,x;
@@ -12,12 +12,12 @@ int main()
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-    	x=count(i);
+    	x=digit_count(i);
         amstrong(i,x);
      
     }
 }
-int count(int x)
+int digit_count(int x)
 {
 	int count=0;
 	while(x!=0)
