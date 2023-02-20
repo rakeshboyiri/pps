@@ -7,15 +7,16 @@
 #include<stdio.h>
 int main()
 {
-    int num,rem,lastdigit,firstdigit;
+    int num,rem,last_digit,first_digit;
     printf("Enter a number : ");
     scanf("%d",&num);
-    lastdigit=num%10;
+    last_digit=num%10;
     while(num!=0)
     {
-        firstdigit=num%10;
+        rem=num%10;
         num=num/10;
     }
-    printf("First digit=%d\n",firstdigit);
-    printf("Last Digit=%d\n",lastdigit);
+    first_digit=rem;
+    printf("First digit=%d\n",first_digit);
+    printf("Last Digit=%d\n",last_digit);
 }
