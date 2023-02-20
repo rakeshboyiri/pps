@@ -40,4 +40,6 @@ int amstrong(int x,int c)
     {
         printf("%d\n",s);
     }
+    
+    return 0;
 }
