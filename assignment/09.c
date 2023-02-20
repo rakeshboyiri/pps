@@ -6,7 +6,7 @@
     Hence 6 is a perfect number.
 */
 #include<stdio.h>
-int main()
+void main()
 {
     int num,i,sum=0;
     printf("Enter a number : ");
