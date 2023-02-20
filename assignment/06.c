@@ -21,9 +21,9 @@ void main()
     {
         great=num2;
     }
-    while(great%num1!=0 && great%num2!=0)
+    while(great%num1!=0 || great%num2!=0)
     {
         great++;
     }
-    printf("LCM=%d",great);
+    printf("LCM of %d and %d :%d",num1,num2,great);
 }
