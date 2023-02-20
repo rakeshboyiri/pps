@@ -19,6 +19,8 @@ int main()
             prime(i);
         }
     }
+    
+    return 0;
 }
 int prime(int x)
 {
@@ -38,4 +40,6 @@ int prime(int x)
             printf("%d\n",x);
         }
     }
+    
+    return 0;
 }
