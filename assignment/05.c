@@ -8,7 +8,7 @@
     HCF of 12 and 30: 6
 */
 #include<stdio.h>
-int main()
+void main()
 {
     int num1,num2,i,hcf,small;
     printf("Enter two numbers : ");
