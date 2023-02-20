@@ -11,7 +11,7 @@ void main()
     {
         printf("Its is a alphabet\n");
     }
-    else if(ch>'0' && ch<'9')
+    else if(ch>='0' && ch=<'9')
     {
         printf("It is a digit\n");
     }
