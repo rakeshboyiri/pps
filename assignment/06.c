@@ -8,7 +8,7 @@
     LCM of 12 and 30: 60
 */
 #include<stdio.h>
-int main()
+void main()
 {
     int num1,num2,great;
     printf("Enter two numbers : ");
