@@ -5,7 +5,7 @@
     Last digit 3
 */
 #include<stdio.h>
-int main()
+void main()
 {
     int num,rem,last_digit,first_digit;
     printf("Enter a number : ");
