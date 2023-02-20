@@ -1,8 +1,8 @@
 /*
-    Write a C program to check whether a character is an alphabet, digit or special character. 
+    4.Write a C program to check whether a character is an alphabet, digit or special character. 
 */
 #include<stdio.h>
-int main()
+void main()
 {
     char ch;
     printf("Enter a charecter : ");
@@ -20,4 +20,3 @@ int main()
         printf("It is a special charecter\n");
     }
    
-}
