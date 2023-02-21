@@ -11,7 +11,7 @@ int main()
 {
     int num,i;
     printf("Enter a number : ");
-    scanf("%d",&num);
+    scanf("%d",&num);  
     printf("Prime factors of %d : ",num);
     for(i=1;i<=num;i++)
     {
@@ -19,8 +19,7 @@ int main()
         {
             prime(i);
         }
-    }
-    
+    }    
     return 0;
 }
 int prime(int x)
@@ -40,7 +39,5 @@ int prime(int x)
         {
             printf("%d , ",x);
         }
-    }
-    
-    return 0;
+    }   
 }
