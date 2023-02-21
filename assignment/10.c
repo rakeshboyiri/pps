@@ -5,18 +5,18 @@
 int perfect();
 int main()
 {
-    int num,i,result;
+    int num,i;
     printf("Enter a number : ");
     scanf("%d",&num);
     for(i=1;i<=num;i++)
     {
-        result=perfect(i);
+        perfect(i);
     }
 }
 int perfect(int x)
 {
     int sum=0,j;
-    for(j=1;j<x;j++)
+    for(j=1;j<=x/2;j++)
     {
         if(x%j==0)
         {
@@ -26,6 +26,5 @@ int perfect(int x)
     if(sum==x)
     {
         printf("%d\n",x);
-    }
-
+    }    
 }
