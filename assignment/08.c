@@ -13,8 +13,7 @@ int main()
     for(i=1;i<=n;i++)
     {
     	x=digit_count(i);
-        amstrong(i,x);
-     
+        amstrong(i,x);     
     }
 }
 int digit_count(int x)
@@ -38,8 +37,6 @@ int amstrong(int x,int c)
     }
     if(s==num)
     {
-        printf("%d\n",s);
-    }
-    
-    return 0;
+        printf("%d\n",num);
+    }   
 }
