@@ -28,5 +28,5 @@ void main()
             hcf=i;
         }
     }
-    printf("HCF=%d",hcf);
+    printf("HCF of %d and %d : %d",num1,num2,hcf);
 }
